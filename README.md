@@ -12,3 +12,5 @@ Until `hook-bokeh.py` ([PR3607](https://github.com/pyinstaller/pyinstaller/pull/
 included manually:
 
     pyinstaller --additional-hooks-dir=. --onefile sliders.py 
+
+The resultant exe file can be found in the 'dist' directory; the 'build' directory can be safely deleted.
